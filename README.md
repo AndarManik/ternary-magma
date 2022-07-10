@@ -2,11 +2,17 @@
 > An approach to understanding neural networks categorically;
 
 # Magma
+
+https://en.m.wikipedia.org/wiki/Magma_(algebra)
+
 - A Magma is a set combined with a closed binary operation
 - unlike a Group a Magma has no additional structure
 - A Magma with a set S can be imaged as [s0, s1, ..., iN^2] where s's are elements of S and N is the size of I;
 
 # NeuroStructure
+
+https://en.m.wikipedia.org/wiki/Neural_network
+
 - A NeuroStructure is a a learnable model with a set of parameters with a Neuronal Structure;
 - The Neuronal Structure N can be represented as [a0, a1, ... , 1] where a's are Natural numbers including 0 and a0 <= 2;
 - A NeuroStructure with a set I can be imaged as [i0, i1, ..., iN^2] where i's are the outputs and N is the size of I;

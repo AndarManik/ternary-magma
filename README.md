@@ -1,45 +1,39 @@
 # ternary-magma
 > An approach to understanding neural networks categorically;
 
-Magma;
-    A Magma is a set combined with a closed binary operation,
-    unlike a Group a Magma has no additional structure;
-    A Magma with a set S can be imaged as [s0, s1, ..., iN^2] where s's are elements of S and N is the size of I;
+# Magma
+- A Magma is a set combined with a closed binary operation
+- unlike a Group a Magma has no additional structure
+- A Magma with a set S can be imaged as [s0, s1, ..., iN^2] where s's are elements of S and N is the size of I;
 
-NeuroStructure;
-    A NeuroStructure is a a learnable model with a set of parameters with a Neuronal Structure;
-    The Neuronal Structure N can be represented as [a0, a1, ... , 1] where a's are Natural numbers including 0 and a0 <= 2;
-    A NeuroStructure with a set I can be imaged as [i0, i1, ..., iN^2] where i's are the outputs and N is the size of I;
+# NeuroStructure
+- A NeuroStructure is a a learnable model with a set of parameters with a Neuronal Structure;
+- The Neuronal Structure N can be represented as [a0, a1, ... , 1] where a's are Natural numbers including 0 and a0 <= 2;
+- A NeuroStructure with a set I can be imaged as [i0, i1, ..., iN^2] where i's are the outputs and N is the size of I;
 
-        Note:   The motivation of the magma comes from the fact that there is a finite number of
-                floating point number, the numbers used by computers. This means the space of
-
-Convergence;
-    A NeuroStructure is Convergent on a Magma if the trained NeuroStructure replicates the binary operation of the magma;
-    A NeuroStructure N Converges on a Magma a, is notated N(m) = T;
-    A NeuroStructure N does not Converge on a Magma m, is notated N(m) = F;
+# Convergence
+- A NeuroStructure is Convergent on a Magma if the trained NeuroStructure replicates the binary operation of the magma;
+- A NeuroStructure N Converges on a Magma a, is notated N(m) = T;
+- A NeuroStructure N does not Converge on a Magma m, is notated N(m) = F;
 
 NeuroMorphism of Magmas;
-    Magmas a, b are NeuroMorphic if for all NeuroStructures N,
-    N(a) = N(b)
+Magmas a, b are NeuroMorphic if for all NeuroStructures N,
+N(a) = N(b)
 
 NeuroMorphism of NeuroStructures;
-    NeuroStructures N, M are NeuroMorphic if for all Magmas a of set I,
-    N(a) =  M(a)
+NeuroStructures N, M are NeuroMorphic if for all Magmas a of set I,
+N(a) =  M(a)
 
 Hierarchy of Magmas;
-    Magma a, b are a > b if there exists a NeuroStructure N such that,
-    N(a) = F and N(b) = T
+Magma a, b are a > b if there exists a NeuroStructure N such that,
+N(a) = F and N(b) = T
 
 Hierarchy of NeuroStructures;
-    NeuroStructures N, M ard N > M if there exists a Magma a such that,
-    N(a) = T and M(a) = F
+- NeuroStructures N, M ard N > M if there exists a Magma a such that,
+- N(a) = T and M(a) = F
 
-Realization of Magmas;
-    Experimentally
-
-Example 1;
-    Consider the binary Set {-1, 1} for Magmas
+# Example 1
+- Consider the binary Set {-1, 1} for Magmas
 
 Magmas [-1,-1,-1,-1] and [1,1,1,1] are NeuroMorphic
 NeuroStructure [1] converges on these magmas nm,

@@ -66,3 +66,4 @@ C is dependent on both variables
 D is dependent on both variables with property (a,b) = (a,c) <=> b = c
 
 Category of NeuroStructures under NeuroMorphism
+to be continued...

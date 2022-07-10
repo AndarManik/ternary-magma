@@ -22,19 +22,19 @@ https://en.m.wikipedia.org/wiki/Neural_network
 - A NeuroStructure N Converges on a Magma a, is notated N(m) = T;
 - A NeuroStructure N does not Converge on a Magma m, is notated N(m) = F;
 
-NeuroMorphism of Magmas;
+# NeuroMorphism of Magmas
 Magmas a, b are NeuroMorphic if for all NeuroStructures N,
 N(a) = N(b)
 
-NeuroMorphism of NeuroStructures;
+# NeuroMorphism of NeuroStructures
 NeuroStructures N, M are NeuroMorphic if for all Magmas a of set I,
 N(a) =  M(a)
 
-Hierarchy of Magmas;
+# Hierarchy of Magmas
 Magma a, b are a > b if there exists a NeuroStructure N such that,
 N(a) = F and N(b) = T
 
-Hierarchy of NeuroStructures;
+# Hierarchy of NeuroStructures;
 - NeuroStructures N, M ard N > M if there exists a Magma a such that,
 - N(a) = T and M(a) = F
 

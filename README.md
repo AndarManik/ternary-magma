@@ -1,5 +1,5 @@
 # ternary-magma
-An approach to understanding neural networks categorically;
+> An approach to understanding neural networks categorically;
 
 Magma;
     A Magma is a set combined with a closed binary operation,
